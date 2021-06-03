@@ -4,7 +4,7 @@ import { Redirect, Route, Switch } from 'react-router-dom'
 /* Composant de page NotFound */
 /* Liste des Path à utiliser */
 import SiteMap from './SiteMap'
-import Home from 'components/Activite/Home'
+import Home from 'components/activite/Home'
 import Menu from 'components/menu/Menu'
 import HelloContexte from 'app/contexte/HelloContexte'
 
