@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to S3
-          uses: jakejarvis/s3-sync-action@master
+          uses: aws-actions/configure-aws-credentials@v1
           with:
             args: --acl public-read --delete
           env:
