@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hello world displays Hello world 1`] = `
+<DocumentFragment>
+  <div>
+    Test Message
+  </div>
+</DocumentFragment>
+`;
